@@ -46,6 +46,7 @@ HEADERS += src/FreeSSM.h \
            src/SSMprotocol2_ID.h \
            src/SSMprotocol2_def_en.h \
            src/SSMprotocol2_def_de.h \
+           src/SSMprotocol2_def_cs.h \
            src/ClearMemoryDlg.h \
            src/libFSSM.h \
            src/tinyxml/tinyxml.h \
@@ -85,6 +86,7 @@ SOURCES += src/main.cpp \
            src/SSMprotocol2_ID.cpp \
            src/SSMprotocol2_def_en.cpp \
            src/SSMprotocol2_def_de.cpp \
+           src/SSMprotocol2_def_cs.cpp \
            src/ClearMemoryDlg.cpp \
            src/libFSSM.cpp \
            src/tinyxml/tinyxml.cpp \
@@ -110,7 +112,8 @@ FORMS +=   ui/FreeSSM.ui \
 RESOURCES += resources/FreeSSM.qrc
 
 TRANSLATIONS = FreeSSM_en.ts \
-               FreeSSM_de.ts
+               FreeSSM_de.ts \
+               FreeSSM_cs.ts
 
 translation.commands = lrelease FreeSSM.pro & qmake
 QMAKE_EXTRA_TARGETS += translation

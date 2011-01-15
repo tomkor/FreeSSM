@@ -1,7 +1,7 @@
 /*
  * SSMprotocol2.cpp - Application Layer for the new Subaru SSM protocol
  *
- * Copyright (C) 2008-2010 Comer352l
+ * Copyright (C) 2008-2011 Comer352L
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -322,6 +322,14 @@ void SSMprotocol2::setupDTCdata()
 		else
 			rawDefs = rawdefs_de.SUBDTCrawDefs();
 	}
+	else if (_language == "cs")
+	{
+		SSMprotocol2_def_cs rawdefs_cs;
+		if (obdDTCs)
+			rawDefs = rawdefs_cs.OBDDTCrawDefs();
+		else
+			rawDefs = rawdefs_cs.SUBDTCrawDefs();
+	}
 	else
 	{
 		SSMprotocol2_def_en rawdefs_en;
@@ -403,6 +411,11 @@ void SSMprotocol2::setupCCCCdata()
 		SSMprotocol2_def_de rawdefs_de;
 		CCrawDefs = rawdefs_de.CCCCrawDefs();
 	}
+	else if (_language == "cs")
+	{
+		SSMprotocol2_def_cs rawdefs_cs;
+		CCrawDefs = rawdefs_cs.CCCCrawDefs();
+	}
 	else
 	{
 		SSMprotocol2_def_en rawdefs_en;
@@ -434,6 +447,11 @@ void SSMprotocol2::setupSupportedMBs()
 	{
 		SSMprotocol2_def_de rawdefs_de;
 		mbrawdata = rawdefs_de.MBrawDefs();
+	}
+	else if (_language == "cs")
+	{
+		SSMprotocol2_def_cs rawdefs_cs;
+		mbrawdata = rawdefs_cs.MBrawDefs();
 	}
 	else
 	{
@@ -538,6 +556,11 @@ void SSMprotocol2::setupSupportedSWs()
 		SSMprotocol2_def_de rawdefs_de;
 		swrawdata = rawdefs_de.SWrawDefs();
 	}
+	else if (_language == "cs")
+	{
+		SSMprotocol2_def_cs rawdefs_cs;
+		swrawdata = rawdefs_cs.SWrawDefs();
+	}
 	else
 	{
 		SSMprotocol2_def_en rawdefs_en;
@@ -623,6 +646,11 @@ void SSMprotocol2::setupAdjustmentsData()
 	{
 		SSMprotocol2_def_de rawdefs_de;
 		adjustmentsrawdata = rawdefs_de.AdjustmentRawDefs();
+	}
+	else if (_language == "cs")
+	{
+		SSMprotocol2_def_cs rawdefs_cs;
+		adjustmentsrawdata = rawdefs_cs.AdjustmentRawDefs();
 	}
 	else
 	{
@@ -732,6 +760,11 @@ void SSMprotocol2::setupActuatorTestData()
 	{
 		SSMprotocol2_def_de rawdefs_de;
 		actuatorsrawdata = rawdefs_de.ActuatorRawDefs();
+	}
+	else if (_language == "cs")
+	{
+		SSMprotocol2_def_cs rawdefs_cs;
+		actuatorsrawdata = rawdefs_cs.ActuatorRawDefs();
 	}
 	else
 	{

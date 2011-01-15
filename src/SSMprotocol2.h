@@ -1,7 +1,7 @@
 /*
  * SSMprotocol2.h - Application Layer for the new Subaru SSM protocol
  *
- * Copyright (C) 2008-2010 Comer352l
+ * Copyright (C) 2008-2011 Comer352L
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -31,6 +31,7 @@
 #include "SSMprotocol2_ID.h"
 #include "SSMprotocol2_def_en.h"
 #include "SSMprotocol2_def_de.h"
+#include "SSMprotocol2_def_cs.h"
 
 
 

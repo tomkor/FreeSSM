@@ -1,7 +1,7 @@
 /*
  * Languages.h - Supported program languages
  *
- * Copyright (C) 2010 Comer352l
+ * Copyright (C) 2010-2011 Comer352L
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -28,13 +28,15 @@
 /* Supported locales (languages) */
 static const QVector<QLocale> __supportedLocales = QVector<QLocale>()
                                                    << QLocale::English
-                                                   << QLocale::German;
+                                                   << QLocale::German
+                                                   << QLocale::Czech;
                                                    /* ===> ADD NEW LOCALES HERE <=== */
 
 /* Make language names translatable */
 #if 0
 QT_TRANSLATE_NOOP("Language", "English")
 QT_TRANSLATE_NOOP("Language", "German")
+QT_TRANSLATE_NOOP("Language", "Czech")
 /* ===> ADD NEW LANGUAGE NAMES HERE <=== */
 #endif
 
