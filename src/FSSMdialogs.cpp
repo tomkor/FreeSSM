@@ -1,7 +1,7 @@
 /*
  * FSSMdialogs.cpp - Dialogs and Messagboxes for FreeSSM
  *
- * Copyright (C) 2008-2009 Comer352l
+ * Copyright (C) 2008-2011 Comer352L
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -33,7 +33,6 @@ FSSM_InitStatusMsgBox::FSSM_InitStatusMsgBox(const QString & labelText, const QS
 	newfont.setPixelSize(13); // 10pts
 	newfont.setBold( true );
 	setFont( newfont );
-	setFixedSize( 330, 70 );
 }
 
 
