@@ -146,7 +146,7 @@ Test akčních členů nelze spustit.</translation>
     <message>
         <location filename="src/CUcontent_Adjustments.cpp" line="458"/>
         <source>Reset all: </source>
-        <translation type="unfinished">Resetovat všechna nastavení: </translation>
+        <translation>Resetovat všeí: </translation>
     </message>
     <message>
         <location filename="src/CUcontent_Adjustments.cpp" line="587"/>
@@ -603,12 +603,12 @@ zkratovaná plus pól baterie!</translation>
     <message>
         <location filename="src/CUinfo_Engine.cpp" line="55"/>
         <source>not programmed yet</source>
-        <translation type="unfinished">ještě není naprogramováno</translation>
+        <translation>není podporováno</translation>
     </message>
     <message>
         <location filename="src/CUinfo_Engine.cpp" line="66"/>
         <source>not supported by ECU</source>
-        <translation type="unfinished">není podporováno řídící jednotkou</translation>
+        <translation>neumí řídící jednotka</translation>
     </message>
 </context>
 <context>
@@ -636,7 +636,7 @@ zkratovaná plus pól baterie!</translation>
     <message>
         <location filename="ui/CUinfo_Engine.ui" line="310"/>
         <source>Switches:</source>
-        <translation type="unfinished">Přepínače:</translation>
+        <translation>Stavy:</translation>
     </message>
     <message>
         <location filename="ui/CUinfo_Engine.ui" line="331"/>
@@ -684,7 +684,7 @@ zkratovaná plus pól baterie!</translation>
     <message>
         <location filename="ui/CUinfo_Transmission.ui" line="253"/>
         <source>Switches:</source>
-        <translation type="unfinished">Přepínače:</translation>
+        <translation>Stavy:</translation>
     </message>
     <message>
         <location filename="ui/CUinfo_Transmission.ui" line="388"/>
@@ -897,7 +897,7 @@ Do you really want to clear the Control Units&apos; memory</oldsource>
     <message>
         <location filename="src/EngineDialog.cpp" line="38"/>
         <source>&amp;Measuring Blocks</source>
-        <translation type="unfinished">&amp;Bloky naměřených hodnot</translation>
+        <translation>&amp;Naměřené hodnoty</translation>
     </message>
     <message>
         <location filename="src/EngineDialog.cpp" line="40"/>
@@ -1519,7 +1519,7 @@ Pokud chcete přispět k projektu (pomoct přidat definice), nebojte se kontakto
     <message>
         <location filename="src/TransmissionDialog.cpp" line="219"/>
         <source>Measuring Blocks:</source>
-        <translation type="unfinished">Bloky měřených hodnot:</translation>
+        <translation>Naměřené hodnoty:</translation>
     </message>
     <message>
         <location filename="src/TransmissionDialog.cpp" line="242"/>
