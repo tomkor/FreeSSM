@@ -9,7 +9,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>418</width>
+    <width>428</width>
     <height>270</height>
    </rect>
   </property>
@@ -21,13 +21,13 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>418</width>
+    <width>428</width>
     <height>270</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>418</width>
+    <width>428</width>
     <height>270</height>
    </size>
   </property>
@@ -65,7 +65,7 @@
     <rect>
      <x>25</x>
      <y>225</y>
-     <width>175</width>
+     <width>180</width>
      <height>30</height>
     </rect>
    </property>
@@ -76,9 +76,9 @@
   <widget class="QPushButton" name="cancel_pushButton">
    <property name="geometry">
     <rect>
-     <x>220</x>
+     <x>225</x>
      <y>225</y>
-     <width>175</width>
+     <width>180</width>
      <height>30</height>
     </rect>
    </property>
@@ -91,7 +91,7 @@
     <rect>
      <x>25</x>
      <y>177</y>
-     <width>370</width>
+     <width>380</width>
      <height>32</height>
     </rect>
    </property>
@@ -112,7 +112,7 @@
   <widget class="QComboBox" name="interfaceType_comboBox">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>160</x>
      <y>113</y>
      <width>245</width>
      <height>22</height>
@@ -132,7 +132,7 @@
   <widget class="QComboBox" name="language_comboBox">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>160</x>
      <y>49</y>
      <width>245</width>
      <height>22</height>
@@ -144,7 +144,7 @@
     <rect>
      <x>53</x>
      <y>52</y>
-     <width>95</width>
+     <width>105</width>
      <height>16</height>
     </rect>
    </property>
@@ -160,7 +160,7 @@
     <rect>
      <x>53</x>
      <y>148</y>
-     <width>95</width>
+     <width>105</width>
      <height>16</height>
     </rect>
    </property>
@@ -238,7 +238,7 @@
   <widget class="QComboBox" name="guistyle_comboBox">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>160</x>
      <y>81</y>
      <width>245</width>
      <height>22</height>
@@ -250,7 +250,7 @@
     <rect>
      <x>53</x>
      <y>84</y>
-     <width>95</width>
+     <width>105</width>
      <height>16</height>
     </rect>
    </property>
@@ -277,7 +277,7 @@
   <widget class="QComboBox" name="interfaceName_comboBox">
    <property name="geometry">
     <rect>
-     <x>150</x>
+     <x>160</x>
      <y>145</y>
      <width>245</width>
      <height>22</height>
@@ -289,7 +289,7 @@
     <rect>
      <x>53</x>
      <y>116</y>
-     <width>95</width>
+     <width>105</width>
      <height>16</height>
     </rect>
    </property>

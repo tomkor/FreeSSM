@@ -87,12 +87,12 @@ Test akčních členů nelze spustit.</translation>
     <message>
         <location filename="ui/AddMBsSWsDlg.ui" line="87"/>
         <source>       Add        </source>
-        <translation>       Přidat        </translation>
+        <translation>      Přidat       </translation>
     </message>
     <message>
         <location filename="ui/AddMBsSWsDlg.ui" line="116"/>
         <source>    Cancel       </source>
-        <translation>    Zrušit       </translation>
+        <translation>     Zrušit        </translation>
     </message>
 </context>
 <context>
@@ -146,7 +146,7 @@ Test akčních členů nelze spustit.</translation>
     <message>
         <location filename="src/CUcontent_Adjustments.cpp" line="458"/>
         <source>Reset all: </source>
-        <translation>Resetovat všechna nastavení: </translation>
+        <translation type="unfinished">Resetovat všechna nastavení: </translation>
     </message>
     <message>
         <location filename="src/CUcontent_Adjustments.cpp" line="587"/>
@@ -603,12 +603,12 @@ zkratovaná plus pól baterie!</translation>
     <message>
         <location filename="src/CUinfo_Engine.cpp" line="55"/>
         <source>not programmed yet</source>
-        <translation>ještě není naprogramováno</translation>
+        <translation type="unfinished">ještě není naprogramováno</translation>
     </message>
     <message>
         <location filename="src/CUinfo_Engine.cpp" line="66"/>
         <source>not supported by ECU</source>
-        <translation>není podporováno řídící jednotkou</translation>
+        <translation type="unfinished">není podporováno řídící jednotkou</translation>
     </message>
 </context>
 <context>
@@ -636,7 +636,7 @@ zkratovaná plus pól baterie!</translation>
     <message>
         <location filename="ui/CUinfo_Engine.ui" line="310"/>
         <source>Switches:</source>
-        <translation>Přepínače:</translation>
+        <translation type="unfinished">Přepínače:</translation>
     </message>
     <message>
         <location filename="ui/CUinfo_Engine.ui" line="331"/>
@@ -684,7 +684,7 @@ zkratovaná plus pól baterie!</translation>
     <message>
         <location filename="ui/CUinfo_Transmission.ui" line="253"/>
         <source>Switches:</source>
-        <translation>Přepínače:</translation>
+        <translation type="unfinished">Přepínače:</translation>
     </message>
     <message>
         <location filename="ui/CUinfo_Transmission.ui" line="388"/>
@@ -874,7 +874,7 @@ Do you really want to clear the Control Units&apos; memory</oldsource>
     <message>
         <location filename="ui/ControlUnitDialog.ui" line="213"/>
         <source>       &amp;Exit Control Unit        </source>
-        <translation>&amp;Opustit řídící jednotku</translation>
+        <translation>   &amp;Opustit řídící jednotku    </translation>
     </message>
     <message>
         <location filename="ui/ControlUnitDialog.ui" line="251"/>
@@ -897,7 +897,7 @@ Do you really want to clear the Control Units&apos; memory</oldsource>
     <message>
         <location filename="src/EngineDialog.cpp" line="38"/>
         <source>&amp;Measuring Blocks</source>
-        <translation>&amp;Bloky naměřených hodnot</translation>
+        <translation type="unfinished">&amp;Bloky naměřených hodnot</translation>
     </message>
     <message>
         <location filename="src/EngineDialog.cpp" line="40"/>
@@ -1098,7 +1098,7 @@ Je možné, že zařízení používá jiná aplikace...</translation>
     <message>
         <location filename="ui/FreeSSM.ui" line="100"/>
         <source>      &amp;Engine       </source>
-        <translation>      &amp;Motor       </translation>
+        <translation>        &amp;Motor        </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="83"/>
@@ -1108,27 +1108,27 @@ Je možné, že zařízení používá jiná aplikace...</translation>
     <message>
         <location filename="ui/FreeSSM.ui" line="53"/>
         <source>        E&amp;xit            </source>
-        <translation>        &amp;Konec            </translation>
+        <translation>       &amp;Konec        </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="176"/>
         <source>       &amp;Help           </source>
-        <translation>       Ná&amp;pověda           </translation>
+        <translation>   Ná&amp;pověda     </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="204"/>
         <source>       &amp;About         </source>
-        <translation>       &amp;O programu         </translation>
+        <translation>  &amp;O programu   </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="128"/>
         <source> &amp;Transmission</source>
-        <translation> &amp;Převodovka</translation>
+        <translation>  &amp;Převodovka  </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="232"/>
         <source>  &amp;Preferences  </source>
-        <translation>  &amp;Nastavení  </translation>
+        <translation>    &amp;Nastavení    </translation>
     </message>
 </context>
 <context>
@@ -1519,7 +1519,7 @@ Pokud chcete přispět k projektu (pomoct přidat definice), nebojte se kontakto
     <message>
         <location filename="src/TransmissionDialog.cpp" line="219"/>
         <source>Measuring Blocks:</source>
-        <translation>Bloky měřených hodnot:</translation>
+        <translation type="unfinished">Bloky měřených hodnot:</translation>
     </message>
     <message>
         <location filename="src/TransmissionDialog.cpp" line="242"/>
@@ -1829,7 +1829,7 @@ Měli byste dostat kopii GNU General Public License společně s tímto programe
     <message>
         <location filename="ui/CUcontent_DCs_engine.ui" line="309"/>
         <source>    Print    </source>
-        <translation>    Tisknout    </translation>
+        <translation> Tisknout </translation>
     </message>
     <message>
         <location filename="ui/CUcontent_DCs_engine.ui" line="76"/>
@@ -1896,7 +1896,7 @@ Pro odpovídající informace, prosím, nahlédněte do dílenské příručky o
     <message>
         <location filename="ui/CUcontent_DCs_transmission.ui" line="195"/>
         <source>    Print    </source>
-        <translation>    Tisknout    </translation>
+        <translation> Tisknout </translation>
     </message>
     <message>
         <location filename="ui/CUcontent_DCs_transmission.ui" line="94"/>

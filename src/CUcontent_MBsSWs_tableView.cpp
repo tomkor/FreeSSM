@@ -1,7 +1,7 @@
 /*
  * CUcontent_MBsSWs_tableView.cpp - Widget for displaying MB/SW values in a table
  *
- * Copyright (C) 2009 Comer352l
+ * Copyright (C) 2009-2011 Comer352L
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -49,7 +49,7 @@ CUcontent_MBsSWs_tableView::CUcontent_MBsSWs_tableView(QWidget *parent, bool sho
 	selectedMBsSWs_tableWidget->setColumnWidth(1, 95);
 	selectedMBsSWs_tableWidget->setColumnWidth(2, 95);
 	selectedMBsSWs_tableWidget->setColumnWidth(3, 95);
-	selectedMBsSWs_tableWidget->setColumnWidth(4, 58);
+	selectedMBsSWs_tableWidget->setColumnWidth(4, 60);
 	// Install event-filter for MB/SW-table:
 	selectedMBsSWs_tableWidget->viewport()->installEventFilter(this);
 	// (Un)check min/max toggle-buttons:
