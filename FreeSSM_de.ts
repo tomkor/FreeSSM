@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="de">
+<TS version="2.1" language="de">
 <context>
     <name>ABSdialog</name>
     <message>
@@ -1719,7 +1719,7 @@ Eventuell wird es bereits von einer anderen Anwendung verwendet...</translation>
     <message>
         <location filename="src/Preferences.cpp" line="166"/>
         <location filename="src/Preferences.cpp" line="442"/>
-        <location filename="src/Preferences.cpp" line="480"/>
+        <location filename="src/Preferences.cpp" line="473"/>
         <source>Error</source>
         <translation>Fehler</translation>
     </message>

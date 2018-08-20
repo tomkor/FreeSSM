@@ -2065,12 +2065,12 @@ If you want to contribute to the the project (help adding defintions), feel free
     <message>
         <location filename="ui/About.ui" line="34"/>
         <source>About FreeSSM</source>
-        <translation>About FreeSSM</translation>
+        <translation type="unfinished">O FreeSSM</translation>
     </message>
     <message>
         <location filename="ui/About.ui" line="1147"/>
         <source>A free diagnostic and adjustment tool for SUBARU® vehicles</source>
-        <translation>A free diagnostic and adjustment tool for SUBARU® vehicles</translation>
+        <translation type="unfinished">Darmowe narzędzie do diagnostyki i zmian dla samochodów SUBARU®</translation>
     </message>
     <message>
         <location filename="ui/About.ui" line="310"/>
@@ -2111,7 +2111,7 @@ If you want to contribute to the the project (help adding defintions), feel free
     <message>
         <location filename="ui/About.ui" line="409"/>
         <source>(Data / Switches)</source>
-        <translation>(Data / Switches)</translation>
+        <translation type="unfinished">(Dane / Przełączniki)</translation>
     </message>
     <message>
         <location filename="ui/About.ui" line="271"/>
