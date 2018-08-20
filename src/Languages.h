@@ -27,14 +27,16 @@
 
 /* Supported locales (languages) */
 static const QVector<QLocale> __supportedLocales = QVector<QLocale>()
-	<< QLocale::English
-	<< QLocale::German;
+<< QLocale::English
+<< QLocale::German
+<< QLocale::Polish;
 	/* ===> ADD NEW LOCALES HERE <=== */
 
 /* Make language names translatable */
 #if 0
 QT_TRANSLATE_NOOP("Language", "English")
 QT_TRANSLATE_NOOP("Language", "German")
+QT_TRANSLATE_NOOP("Language","Polish")
 /* ===> ADD NEW LANGUAGE NAMES HERE <=== */
 #endif
 
