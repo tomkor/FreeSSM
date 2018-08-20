@@ -1586,17 +1586,17 @@ Maybe the device is already in use by another application...</translation>
     <message>
         <location filename="ui/FreeSSM.ui" line="54"/>
         <source>          E&amp;xit              </source>
-        <translation>          E&amp;xit              </translation>
+        <translation>          Wyjście              </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="101"/>
         <source>        &amp;Engine         </source>
-        <translation>        &amp;Engine         </translation>
+        <translation>        Silnik         </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="129"/>
         <source>   &amp;Transmission  </source>
-        <translation>   &amp;Transmission  </translation>
+        <translation>   Skrzynia biegów  </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="157"/>
@@ -1606,12 +1606,12 @@ Maybe the device is already in use by another application...</translation>
     <message>
         <location filename="ui/FreeSSM.ui" line="188"/>
         <source>  Cruise Control </source>
-        <translation>  Cruise Control </translation>
+        <translation>  Kontrola trakcji </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="216"/>
         <source>Air Conditioning</source>
-        <translation>Air Conditioning</translation>
+        <translation>Klimatyzacja</translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="247"/>
@@ -1621,22 +1621,22 @@ Maybe the device is already in use by another application...</translation>
     <message>
         <location filename="ui/FreeSSM.ui" line="264"/>
         <source>         &amp;Help             </source>
-        <translation>         &amp;Help             </translation>
+        <translation>         Pomoc             </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="292"/>
         <source>         &amp;About           </source>
-        <translation>         &amp;About           </translation>
+        <translation>         &amp;O programie           </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="320"/>
         <source>    &amp;Preferences    </source>
-        <translation>    &amp;Preferences    </translation>
+        <translation>    &amp;Preferencje    </translation>
     </message>
     <message>
         <location filename="ui/FreeSSM.ui" line="84"/>
         <source>Control Units:</source>
-        <translation>Control Units:</translation>
+        <translation>Jednostki kontrolne:</translation>
     </message>
 </context>
 <context>
@@ -2065,12 +2065,12 @@ If you want to contribute to the the project (help adding defintions), feel free
     <message>
         <location filename="ui/About.ui" line="34"/>
         <source>About FreeSSM</source>
-        <translation type="unfinished">O FreeSSM</translation>
+        <translation>O FreeSSM</translation>
     </message>
     <message>
         <location filename="ui/About.ui" line="1147"/>
         <source>A free diagnostic and adjustment tool for SUBARU® vehicles</source>
-        <translation type="unfinished">Darmowe narzędzie do diagnostyki i zmian dla samochodów SUBARU®</translation>
+        <translation>Darmowe narzędzie do diagnostyki i zmian dla samochodów SUBARU®</translation>
     </message>
     <message>
         <location filename="ui/About.ui" line="310"/>
@@ -2111,7 +2111,7 @@ If you want to contribute to the the project (help adding defintions), feel free
     <message>
         <location filename="ui/About.ui" line="409"/>
         <source>(Data / Switches)</source>
-        <translation type="unfinished">(Dane / Przełączniki)</translation>
+        <translation>(Dane / Przełączniki)</translation>
     </message>
     <message>
         <location filename="ui/About.ui" line="271"/>

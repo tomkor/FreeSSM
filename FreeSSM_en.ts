@@ -1642,14 +1642,19 @@ Maybe the device is already in use by another application...</translation>
 <context>
     <name>Language</name>
     <message>
-        <location filename="src/Languages.h" line="36"/>
+        <location filename="src/Languages.h" line="37"/>
         <source>English</source>
         <translation>English</translation>
     </message>
     <message>
-        <location filename="src/Languages.h" line="37"/>
+        <location filename="src/Languages.h" line="38"/>
         <source>German</source>
         <translation>German</translation>
+    </message>
+    <message>
+        <location filename="src/Languages.h" line="39"/>
+        <source>Polish</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
