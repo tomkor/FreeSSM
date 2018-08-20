@@ -23,7 +23,7 @@
 
 #include <string>
 #include "AbstractDiagInterface.h"
-#ifdef __WIN32__
+#ifdef _WIN32
 	#include "windows\J2534_API.h"
 #elif defined __linux__
 	#include "linux/J2534_API.h"

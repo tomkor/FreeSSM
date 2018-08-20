@@ -21,7 +21,7 @@
 #define ABSDIALOG_H
 
 
-#ifdef __WIN32__
+#ifdef _WIN32
 	#include "windows\serialCOM.h"
 #elif defined __linux__
 	#include "linux/serialCOM.h"

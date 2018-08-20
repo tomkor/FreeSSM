@@ -21,7 +21,7 @@
 #define SSMP1COMMUNICATION_PROCEDURES_H
 
 
-#ifdef __WIN32__
+#ifdef _WIN32
 	#include "windows\TimeM.h"
 	#define waitms(x) Sleep(x)
 #elif defined __linux__

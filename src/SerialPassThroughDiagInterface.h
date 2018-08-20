@@ -24,7 +24,7 @@
 #include <string>
 #include <vector>
 #include "AbstractDiagInterface.h"
-#ifdef __WIN32__
+#ifdef _WIN32
 	#include "windows\serialCOM.h"
 	#include "windows\TimeM.h"
 	#define waitms(x) Sleep(x)
